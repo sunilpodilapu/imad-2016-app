@@ -21,6 +21,9 @@ app.get('/', function (req, res) {
 app.get('/code2',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'code2.html'));
 });
+  app.get('/Tic Tac Toe',function(req,res){
+  res.sendFile(path.join(__dirname, 'ui', 'Tic Tac Toe.html'));
+});
 app.get('/code3',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'code3.html'));
 });
