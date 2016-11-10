@@ -18,7 +18,7 @@ if(whose_move==1)
 {
     check_space();
 	if(ok==1)
-	{	document.getElementById(c).src="rose2.png"
+	{	document.getElementById(c).src="/ui/rose2.png"
 	whose_move=2;
 	process();
     }
@@ -31,7 +31,7 @@ else
 {
 check_space();
             if(ok==1)	{
-			document.getElementById(c).src="jasmine.png"
+			document.getElementById(c).src="/ui/jasmine.png"
            whose_move=1;
 		   process();
 		   }
@@ -135,7 +135,6 @@ document.getElementById("player2").value=count_player2_wins
   alert("there is tie");
   count_ties++;
 document.getElementById("ties").value=count_ties
-playagain();
   }
 }
 function check_win()
@@ -182,15 +181,15 @@ function check_win()
    temp='';
    who_won=0;
    a=0;b=0;c=0;d=0;e=0;f=0;g=0;h=0;i=0;
-   document.getElementById('A').src="mountain.png"
-     document.getElementById('B').src="mountain.png"
-	   document.getElementById('C').src="mountain.png"
-  document.getElementById('D').src="mountain.png"
-    document.getElementById('E').src="mountain.png"
-	  document.getElementById('F').src="mountain.png"
-  document.getElementById('G').src="rose.jpg"
-    document.getElementById('H').src="rose.jpg"
-	  document.getElementById('I').src="rose.jpg"
+   document.getElementById('A').src="/ui/mountain.png"
+     document.getElementById('B').src="/ui/mountain.png"
+	   document.getElementById('C').src="/ui/mountain.png"
+  document.getElementById('D').src="/ui/mountain.png"
+    document.getElementById('E').src="/ui/mountain.png"
+	  document.getElementById('F').src="/ui/mountain.png"
+  document.getElementById('G').src="ui/mountain.png"
+    document.getElementById('H').src="ui/mountain.png"
+	  document.getElementById('I').src="ui/mountain.png"
 	  }
 	function help()
 	{
@@ -202,19 +201,19 @@ function check_win()
 <h1 align="center">TIC-TAC-TOE</h1>
 <table border="1" align="center">
 <tr>
-<td><a href="javascript:move('A')"><img src="mountain.png" border="0" height="100" width="100" id="A"></a></td>
-<td><a href="javascript:move('B')"><img src="mountain.png" border="0" height="100" width="100" id="B"></a></td>
-<td><a href="javascript:move('C')"><img src="mountain.png" border="0" height="100" width="100" id="C"></a></td>
+<td><a href="javascript:move('A')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="A"></a></td>
+<td><a href="javascript:move('B')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="B"></a></td>
+<td><a href="javascript:move('C')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="C"></a></td>
 </tr>
 <tr>
-<td><a href="javascript:move('D')"><img src="mountain.png" border="0" height="100" width="100" id="D"></a></td>
-<td><a href="javascript:move('E')"><img src="mountain.png" border="0" height="100" width="100" id="E"></a></td>
-<td><a href="javascript:move('F')"><img src="mountain.png" border="0" height="100" width="100" id="F"></a></td>
+<td><a href="javascript:move('D')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="D"></a></td>
+<td><a href="javascript:move('E')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="E"></a></td>
+<td><a href="javascript:move('F')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="F"></a></td>
 </tr>
 <tr>
-<td><a href="javascript:move('G')"><img src="mountain.png" border="0" height="100" width="100" id="G"></a></td>
-<td><a href="javascript:move('H')"><img src="mountain.png" border="0" height="100" width="100" id="H"></a></td>
-<td><a href="javascript:move('I')"><img src="mountain.png" border="0" height="100" width="100" id="I"></a></td>
+<td><a href="javascript:move('G')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="G"></a></td>
+<td><a href="javascript:move('H')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="H"></a></td>
+<td><a href="javascript:move('I')"><img src="/ui/mountain.png" border="0" height="100" width="100" id="I"></a></td>
 </tr>
 </table>
 
