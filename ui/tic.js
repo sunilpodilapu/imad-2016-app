@@ -1,6 +1,5 @@
 <script type="text/javascript" language="javascript">
-		
-		var whose_move = 1;
+        var whose_move = 1;
 		var a = 0;
 		var b = 0;
 		var c = 0;
