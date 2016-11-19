@@ -13,11 +13,11 @@ app.get('ui/code2',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'code2.html'));
 });
 
-  app.get('/ui/Tic Tac Toe',function(req,res){
+  app.get('/ui/TIC TAC TOE',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'TIC TAC TOE.html'));
 });
 
-  app.get('/ui/Tic-Tac-Toe AI',function(req,res){
+  app.get('/ui/TIC-TAC-TOE AI',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'TIC-TAC-TOE AI.html'));
 });
 
