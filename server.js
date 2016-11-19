@@ -1,15 +1,6 @@
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
-var config=
-{
-    user:'sunilpodilapu',
-    databse:'sunilpodilapu',
-    host:'db.hasura-app.io',
-    port:'5432',
-    password:process.env.DB-PASSWORD
-};
-var Pool=new Pool('config');
 
 var app = express();
 app.use(morgan('combined'));
