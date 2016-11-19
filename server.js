@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/code2',function(req,res){
+app.get('ui/code2',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'code2.html'));
 });
 
