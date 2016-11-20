@@ -1,4 +1,3 @@
-<script language="javascript" type="text/javascript">
 var a=0;var b=0;var c=0;var d=0;var e=0;var f=0;var g=0;var h=0;var i=0;
 var whose_move=1;
 var temp='';
@@ -193,6 +192,3 @@ function check_win()
 	{
 	alert("welcome to tic-tac-toe ,basically this is a two player game in which you have to follow the rules below to win in this game")
 	}
-	</script>
-	 <script type="text/javascript" src="/ui/main.js">
-        </script>
