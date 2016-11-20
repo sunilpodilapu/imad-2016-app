@@ -15,7 +15,7 @@ if(whose_move==1)
 {
     check_space();
 	if(ok==1)
-	{	document.getElementById(c).src="rose.jpg"
+	{	document.getElementById(c).src="/u/rose.png"
 	whose_move=2;
 	process();
     }
@@ -28,7 +28,7 @@ else
 {
 check_space();
             if(ok==1)	{
-			document.getElementById(c).src="butterflyorangeflower.jpg"
+			document.getElementById(c).src="/ui/jasmine.png"
            whose_move=1;
 		   process();
 		   }
@@ -181,15 +181,15 @@ function check_win()
    temp='';
    who_won=0;
    a=0;b=0;c=0;d=0;e=0;f=0;g=0;h=0;i=0;
-   document.getElementById('A').src="rose.jpg"
-     document.getElementById('B').src="rose.jpg"
-	   document.getElementById('C').src="rose.jpg"
-  document.getElementById('D').src="rose.jpg"
-    document.getElementById('E').src="rose.jpg"
-	  document.getElementById('F').src="rose.jpg"
-  document.getElementById('G').src="rose.jpg"
-    document.getElementById('H').src="rose.jpg"
-	  document.getElementById('I').src="rose.jpg"
+   document.getElementById('A').src="/ui/mountain.png"
+     document.getElementById('B').src="/ui/mountain.png"
+	   document.getElementById('C').src="/ui/mountain.png"
+  document.getElementById('D').src="/ui/mountain.png"
+    document.getElementById('E').src="/ui/mountain.png"
+	  document.getElementById('F').src="/ui/mountain.png"
+  document.getElementById('G').src="/ui/mountain.png"
+    document.getElementById('H').src="/ui/mountain.png"
+	  document.getElementById('I').src="/ui/mountain.png"
 	  }
 	function help()
 	{
