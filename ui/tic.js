@@ -1,4 +1,3 @@
-<script language="javascript" type="text/javascript">
 var a=0;var b=0;var c=0;var d=0;var e=0;var f=0;var g=0;var h=0;var i=0;
 var whose_move=1;
 var temp='';
@@ -15,7 +14,7 @@ if(whose_move==1)
 {
     check_space();
 	if(ok==1)
-	{	document.getElementById(c).src="/u/rose.png"
+	{	document.getElementById(c).src="/u/rose.png";
 	whose_move=2;
 	process();
     }
@@ -28,7 +27,7 @@ else
 {
 check_space();
             if(ok==1)	{
-			document.getElementById(c).src="/ui/jasmine.png"
+			document.getElementById(c).src="/ui/jasmine.png";
            whose_move=1;
 		   process();
 		   }
@@ -40,7 +39,7 @@ check_space();
 }
 function check_space()
 {
-      if((temp=='A') && (a==0))
+      if((temp=='A') && (a===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -48,7 +47,7 @@ function check_space()
 	  if(whose_move==2)
 	  a=2;
 	  }
-	   if((temp=='B') && (b==0))
+	   if((temp=='B') && (b===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -56,7 +55,7 @@ function check_space()
 	  if(whose_move==2)
 	  b=2;
 	  }
-	   if((temp=='C') && (c==0))
+	   if((temp=='C') && (c===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -64,7 +63,7 @@ function check_space()
 	  if(whose_move==2)
 	  c=2;
 	  }
-	   if((temp=='D') && (d==0))
+	   if((temp=='D') && (d===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -72,7 +71,7 @@ function check_space()
 	  if(whose_move==2)
 	  d=2;
 	  }
-	   if((temp=='E') && (e==0))
+	   if((temp=='E') && (e===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -80,7 +79,7 @@ function check_space()
 	  if(whose_move==2)
 	  e=2;
 	  }
-	   if((temp=='F') && (f==0))
+	   if((temp=='F') && (f===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -88,7 +87,7 @@ function check_space()
 	  if(whose_move==2)
 	  f=2;
 	  }
-	   if((temp=='G') && (g==0))
+	   if((temp=='G') && (g===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -96,7 +95,7 @@ function check_space()
 	  if(whose_move==2)
 	  g=2;
 	  }
-	   if((temp=='H') && (h==0))
+	   if((temp=='H') && (h===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -104,7 +103,7 @@ function check_space()
 	   if(whose_move==2)
 	  h=2;
 	  }
-	  if((temp=='I') && (i==0))
+	  if((temp=='I') && (i===0))
 	  {
 	  ok=1;
 	  if(whose_move==1)
@@ -119,21 +118,21 @@ function process()
   if(who_won==1)
   {
   alert("player1 won:");
-  count_player1_wins++; document.getElementById("player1").value=count_player1_wins
+  count_player1_wins++; document.getElementById("player1").value=count_player1_wins;
   playagain();
   }
    if(who_won==2)
   {
   alert("player2 won:");
   count_player2_wins++;
-document.getElementById("player2").value=count_player2_wins
+document.getElementById("player2").value=count_player2_wins;
 playagain();
   }
    if(who_won==3)
   {
   alert("there is tie");
   count_ties++;
-document.getElementById("ties").value=count_ties
+document.getElementById("ties").value=count_ties;
 playagain();
   }
 }
@@ -195,4 +194,3 @@ function check_win()
 	{
 	alert("welcome to tic-tac-toe.player1 plays as 0's and player2 plays as x's .select the variable you want to click by clicking it.you cannot occpy a square that is already occupied.the plays who gets three variables in  a row wins")
 	}
-	</script>
