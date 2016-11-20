@@ -13,8 +13,8 @@ app.get('/code2',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'code2.html'));
 });
 
- app.get('/TIC-TAC-TOE',function(req,res){
-  res.sendFile(path.join(__dirname, 'ui', 'TIC-TAC-TOE.html'));
+ app.get('/TIC TAC TOE',function(req,res){
+  res.sendFile(path.join(__dirname, 'ui', 'TIC TAC TOE.html'));
 });
 
  app.get('/TIC-TAC-TOE AI',function(req,res){
