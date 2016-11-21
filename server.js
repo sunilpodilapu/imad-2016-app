@@ -17,14 +17,6 @@ app.get('/mycode',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'mycode.html'));
 });
 
- app.get('/TIC TAC TOE',function(req,res){
-  res.sendFile(path.join(__dirname, 'ui', 'TIC TAC TOE.html'));
-});
-
- app.get('/TIC-TAC-TOE AI',function(req,res){
-  res.sendFile(path.join(__dirname, 'ui', 'TIC-TAC-TOE AI.html'));
-});
-
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
