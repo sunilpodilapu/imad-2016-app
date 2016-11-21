@@ -14,7 +14,7 @@ if(whose_move==1)
 {
     check_space();
 	if(ok==1)
-	{	document.getElementById(c).src="/u/rose.png";
+	{	document.getElementById(c).src="/ui/rose2.png";
 	whose_move=2;
 	process();
     }
