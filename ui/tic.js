@@ -119,21 +119,18 @@ function process()
   {
   alert("player1 won:");
   count_player1_wins++; document.getElementById("player1").value=count_player1_wins;
-  playagain();
   }
    if(who_won==2)
   {
   alert("player2 won:");
   count_player2_wins++;
 document.getElementById("player2").value=count_player2_wins;
-playagain();
   }
    if(who_won==3)
   {
   alert("there is tie");
   count_ties++;
 document.getElementById("ties").value=count_ties;
-playagain();
   }
 }
 function check_win()
