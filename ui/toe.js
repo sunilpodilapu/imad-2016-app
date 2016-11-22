@@ -137,7 +137,7 @@ var whose_move = 1;
 
 			}
 
-			document.getElementById(temp).src = '/ui/jasmine2.png';
+			document.getElementById(temp).src = '/ui/jamine2.png';
 			whose_move = 1;
 			process();
 		}
