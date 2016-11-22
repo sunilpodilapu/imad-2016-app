@@ -302,5 +302,5 @@ var whose_move = 1;
 
 		function help()
 		{
-			alert("Welcome to Tic-Tac-Toe!  Player1 plays as the O's and Computer plays as the X's. Select the square you want to put your variable into by clicking them.  You cannot occupy a square that is already occupied. The first player to get three squares in a row wins.  Good Luck!!");
+			alert("Welcome to Tic-Tac-Toe!  Player1 plays as the rose's and Computer plays as the jasmine's. Select the square you want to put your variable into by clicking them.  You cannot occupy a square that is already occupied. The first player to get three squares in a row wins.  Good Luck!!");
 		}
