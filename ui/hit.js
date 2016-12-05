@@ -1,5 +1,5 @@
 			gamelength=30;
-			timerID=null
+			timerID=null;
 			var playing=false;
 			var numholes=6*10;
 			var currentpos=-1;
