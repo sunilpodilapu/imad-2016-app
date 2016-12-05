@@ -14,13 +14,13 @@
 			function showtime(remtime) {
 				document.getElementById("timeleft").value=remtime;
 				if(playing) {
-					if(remtime==0) {
+					if(remtime===0) {
 						alert('Game Over!');
 						location.reload();
 					}
 					else {
 						temp=remtime-1;
-						setTimeout("showtime(temp)",1000);
+						setTimeout(showtime(temp),1000);
 					}
 				}
 			}
