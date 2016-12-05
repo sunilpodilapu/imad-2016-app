@@ -27,7 +27,7 @@ else
 {
 check_space();
             if(ok==1)	{
-			document.getElementById(c).src="/ui/jasmine.png";
+			document.getElementById(c).src="/ui/jamine2.png";
            whose_move=1;
 		   process();
 		   }
