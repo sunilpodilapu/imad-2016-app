@@ -189,5 +189,5 @@ function check_win()
 	  }
 	function help()
 	{
-	alert("welcome to tic-tac-toe.player1 plays as 0's and player2 plays as x's .select the variable you want to click by clicking it.you cannot occpy a square that is already occupied.the plays who gets three variables in  a row wins")
+	alert("welcome to tic-tac-toe.player1 plays as rose's and player2 plays as jasmine's .select the variable you want to click by clicking it.you cannot occpy a square that is already occupied.the plays who gets three variables in  a row wins")
 	}
