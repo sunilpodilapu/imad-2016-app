@@ -16,7 +16,9 @@ app.get('/code2',function(req,res){
 app.get('/mycode',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'mycode.html'));
 });
-
+app.get('/tictactoe',function(req,res){
+  res.sendFile(path.join(__dirname, 'ui', 'tictactoe.html'));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
