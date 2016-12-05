@@ -26,6 +26,9 @@ app.get('/1', function (req, res) {
 app.get('/ui/toe.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'toe.js'));
 });
+app.get('/ui/hit.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'hit.js'));
+});
 app.get('/ui/tic.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tic.js'));
 });
