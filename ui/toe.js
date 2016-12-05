@@ -226,7 +226,7 @@ var whose_move = 1;
 
 			if(who_won == 1)
 			{
-				alert("Player1 Won!");
+				alert("You Won!");
 				count_player1_wins++;
 				document.getElementById('player1').value = count_player1_wins;
 				whose_move = 0;
